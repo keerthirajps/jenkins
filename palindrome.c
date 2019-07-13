@@ -11,7 +11,7 @@ void palindrome()
         reversedInteger = reversedInteger*10 + remainder;
         n /= 10;
     }
-    // palindrome if orignalInteger and reversedInteger are equal
+  
     if (originalInteger == reversedInteger)
         printf("%d is a palindrome.", originalInteger);
     else
